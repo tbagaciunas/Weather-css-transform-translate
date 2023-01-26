@@ -245,7 +245,7 @@ body {
 }
 
 
-.rainy {
+.rainy3 {
     margin: 0;
     position: relative;
     height: 150px;
@@ -364,4 +364,133 @@ body {
 
   display: inline-block;
  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .tekstas2 {
+        position: absolute;
+        color: rgb(161, 148, 148);
+        font-size: 14px;
+        top: 101px;
+        left: 462px;
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+        z-index: 2;
+        margin-right: 0px;
+    }
+
+    .dienos {
+
+        display: block;
+    }
+    
+    .stormy {
+        position: relative;
+        height: 74px;
+        width: 100px;
+        left: 287px;
+        top: -734px;
+        animation: stormy 7s ease;
+    }
+
+    .sunny {
+        position: relative;
+        height: 100px;
+        width: 100px;
+        left: 183px;
+        top: -631px;
+        animation: sunny 4s ease-in;
+    }
+
+.sunny2 {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 81px;
+    top: -526px;
+    animation: sunny2 4s infinite;
+}
+
+.cloudy3 {
+    margin: 0;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: -30px;
+    top: -395px;
+}
+
+.rainy2 {
+    margin: 0;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: -186px;
+    top: -288px;
+}
+.rainy3 {
+    margin: 0;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 283px;
+    top: -334px;
+}
+
+.temp {
+    position: fixed;
+    font-size: 20px;
+    color: rgb(161, 148, 148);
+    top: 299px;
+    left: 487px;
+    word-spacing: 10px;
+    display: inline-block;
+}
+
+.temp2 {
+    position: fixed;
+    font-size: 20px;
+    color: rgb(161, 148, 148);
+    top: 403px;
+    left: 485px;
+    word-spacing: 10px;
+}
+
+.temp3 {
+    position: fixed;
+    font-size: 20px;
+    color: rgb(161, 148, 148);
+    top: 604px;
+    left: 490px;
+    word-spacing: 10px;
+}
+
+.temp5 {
+    position: fixed;
+    font-size: 20px;
+    color: rgb(161, 148, 148);
+    top: 705px;
+    left: 490px;
+    word-spacing: 10px;
+}
+
+.temp6 {
+    position: fixed;
+    font-size: 20px;
+    color: rgb(161, 148, 148);
+    top: 809px;
+    left: 487px;
+    word-spacing: 10px;
+}
+
+.dienos {
+
+    border-bottom: 3px solid rgb(161, 148, 148) ;
+    
+}
 }
